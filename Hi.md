@@ -1,7 +1,7 @@
 - 👋 Oi, Eu sou a @r-izzz ou Rízia
 - 👀 Gosto de música, biologia, ciência, bioinformática, ciência de dados, aprender idiomas, conhecer novas culturas, ler...
 - 🌱 Estou aprendendo front end e back end
-- 💞️ Quero colaborar em (Ainda não pensei nisso, rs)
+- 💞️ No momento estou colaborando em um projeto de uma biblioteca virtual, em parceria com as mulheres da comunidade Girls Codam.
 - 📫 Você me acha aqui: @naoearizia = Instagram; https://www.linkedin.com/in/riziaaraujo/ = LinkedIn; Trailblazer Salesforce: https://trailblazer.me/id/riziaaraujo.
 
 - 👋 Hi, I’m @r-izzz or Rízia
