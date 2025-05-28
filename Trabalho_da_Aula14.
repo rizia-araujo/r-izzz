@@ -1,0 +1,125 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/rizia-araujo/r-izzz/blob/main/Trabalho_da_Aula14.\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Nome: Rízia Assunção Araujo\n",
+        "# Polo: Palmas\n",
+        "# Resposta do trabalho da aula 14\n",
+        "# Criar a Classe Aluno com notas\n",
+        "# Crie uma classe Aluno com nome, curso e lista de notas. Adicionar:\n",
+        "# Método Construtor que inicializa notas com zero, um nome e curso dados pelo\n",
+        "# usuário;\n",
+        "# Adicionar uma nova nota (sobrescrever a nota anterior);\n",
+        "# Calcular a média (nota1+nota2)/2, caso média >= 7.0 o aprovado, se média <\n",
+        "# 7.0 exame final;\n",
+        "# Exibir dados do aluno;\n",
+        "\n",
+        "# Classe Aluno notas\n",
+        "class Aluno:\n",
+        "    def __init__(self, nome, curso):\n",
+        "        self.nome = nome\n",
+        "        self.curso = curso\n",
+        "        self.notas = [0.0, 0.0]  # Começa com as duas notas zeradas\n",
+        "\n",
+        "    def adicionar_nota(self, indice, nota):\n",
+        "        if 0 <= indice < len(self.notas):\n",
+        "            self.notas[indice] = nota\n",
+        "        else:\n",
+        "            print(\"Índice de nota inválido. Use 0 ou 1.\")\n",
+        "\n",
+        "    def calcular_media(self):\n",
+        "        return sum(self.notas) / len(self.notas) if self.notas else 0\n",
+        "\n",
+        "    def verificar_aprovacao(self):\n",
+        "        return self.calcular_media() >= 7.0\n",
+        "\n",
+        "    def exibir_dados(self):\n",
+        "        print(f\"Nome: {self.nome}\")\n",
+        "        print(f\"Curso: {self.curso}\")\n",
+        "        print(f\"Notas: {self.notas}\")\n",
+        "        print(f\"Média: {self.calcular_media():.2f}\")\n",
+        "        print(\"Situação: Aprovado\" if self.verificar_aprovacao() else \"Situação: Exame final\")\n",
+        "\n",
+        "# Dados do usuário\n",
+        "nome = input(\"Digite o nome do aluno: \")\n",
+        "curso = input(\"Digite o curso: \")\n",
+        "\n",
+        "# Cria o objeto aluno\n",
+        "aluno1 = Aluno(nome, curso)\n",
+        "\n",
+        "# Recebe as duas notas\n",
+        "for i in range(2):\n",
+        "    while True:\n",
+        "        try:\n",
+        "            nota = float(input(f\"Digite a nota {i + 1}: \"))\n",
+        "            aluno1.adicionar_nota(i, nota)\n",
+        "            break\n",
+        "        except ValueError:\n",
+        "            print(\"Por favor, digite um número válido.\")\n",
+        "\n",
+        "# Exibe os dados completos\n",
+        "aluno1.exibir_dados()\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-JGozwpOYFNW",
+        "outputId": "83f770fd-d77c-4476-ad67-00924ab0b902"
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite o nome do aluno: Rizia\n",
+            "Digite o curso: ADS\n",
+            "Digite a nota 1: 6\n",
+            "Digite a nota 2: 8\n",
+            "Nome: Rizia\n",
+            "Curso: ADS\n",
+            "Notas: [6.0, 8.0]\n",
+            "Média: 7.00\n",
+            "Situação: Aprovado\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "SL19d2f3YlTh"
+      },
+      "execution_count": 7,
+      "outputs": []
+    }
+  ]
+}
