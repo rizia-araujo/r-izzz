@@ -1,14 +1,51 @@
-- 👋 Oi, Eu sou a @r-izzz ou Rízia
-- 👀 Gosto de música, biologia, ciência, bioinformática, ciência de dados, aprender idiomas, conhecer novas culturas, ler...
-- 🌱 Estou aprendendo front end e back end
-- 💞️ No momento estou colaborando em um projeto de uma biblioteca virtual, em parceria com as mulheres da comunidade Girls Codam.
-- 📫 Você me acha aqui: @naoearizia = Instagram; https://www.linkedin.com/in/riziaaraujo/ = LinkedIn; Trailblazer Salesforce: https://trailblazer.me/id/riziaaraujo.
+<p align="left"> 👋 Oi, eu sou a Rízia!
 
-- 👋 Hi, I’m @r-izzz or Rízia
-- 👀 I’m interested in music, biology, science, bioinformatics, data science, learn other tongues, know new cultures, to read...
-- 🌱 I’m currently learning front end, back end
-- 💞️ I’m looking to collaborate on (i have'nt think about it yet)
-- 📫 How to reach me @naoearizia = instagram; https://www.linkedin.com/in/riziaaraujo/ = linkedin, trailblazer salesforce = https://trailblazer.me/id/riziaaraujo.
+  - 🌱 Estou aprendendo front end e back end, mas atualmente trabalho mais em projetos back-end. 
+
+- 💞️ No momento estou colaborando em um projeto de um sistema de acompanhamento de dados epidemiológicos na secretaria de saúde municipal, onde estou estagiando, além disso também estou colaborando em uma biblioteca virtual, em parceria com as mulheres da comunidade Girls Codam. 
+
+- 📫 Você me acha aqui: @naoearizia = Instagram; https://www.linkedin.com/in/riziaaraujo/ = LinkedIn.
+</p>
+
+###
+
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" height="40" alt="jest logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/storybook/storybook-original.svg" height="40" alt="storybook logo"  />
+</div>
+
+###
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=rizia-araujo&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
+</div>
+
+###
+<div align="left">
+  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
+  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/twitter/default.svg" width="52" height="40" alt="twitter logo"  />
+  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="52" height="40" alt="discord logo"  />
+  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/youtube/default.svg" width="52" height="40" alt="youtube logo"  />
+</div>
+
+###
+
+<div align="center">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=rizia-araujo.rizia-araujo&"  />
+</div>
+
+###
+
+<div align="center">
+  <img height="200" src="https://i.imgflip.com/65efzo.gif"  />
+</div>
+
+###
 
 <!---
 r-izzz/r-izzz is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
